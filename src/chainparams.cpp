@@ -123,6 +123,7 @@ public:
         nTargetSpacing = 1 * 60;  // Xavander: 1 minutes
         nMaturity = 10; // 10 Conf to mature coins
         nMasternodeCountDrift = 20;
+		nMasternodeCollateralAmt = 15000; //masternode collateral
         nMaxMoneyOut = 55000000 * COIN;
 
         /** Height or Time Based Activations **/
