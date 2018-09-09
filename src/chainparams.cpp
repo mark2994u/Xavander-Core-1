@@ -99,7 +99,7 @@ public:
     CMainParams()
     {
         networkID = CBaseChainParams::MAIN;
-        vTreasuryRewardAddress = "UhBX89pxA2VbECvoA27UdbX4MYh92ujsds"; //Fill in address once wallet generated
+        vTreasuryRewardAddress = ""; //Fill in address once wallet generated or when dev fee is activated
         strNetworkID = "main";
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -111,7 +111,7 @@ public:
         pchMessageStart[2] = 0xc2;
         pchMessageStart[3] = 0x45;
         vAlertPubKey = ParseHex("047f3dc11e937a81a13c84f3959927ed1cd4de72f3aeac13d398bbe92f0e948254af324d09aeb413ef38af01844b44b5d0b186505f479c02491c3173f5418709ba");
-        nDefaultPort = 9887;
+        nDefaultPort = 39799;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
