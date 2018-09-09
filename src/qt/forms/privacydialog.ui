@@ -481,14 +481,14 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXxxSelected">
+                <widget class="QLabel" name="labelzXavanderSelected">
                  <property name="text">
                   <string>zXavander Selected:</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXxxSelected_int">
+                <widget class="QLabel" name="labelzXavanderSelected_int">
                  <property name="text">
                   <string>0</string>
                  </property>

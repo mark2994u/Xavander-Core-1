@@ -283,14 +283,14 @@ void PrivacyDialog::on_pushButtonSpendzXAVANDER_clicked()
 
 void PrivacyDialog::on_pushButtonZXavanderControl_clicked()
 {
-    ZXavanderControlDialog* zXxxControl = new ZXavanderControlDialog(this);
-    zXxxControl->setModel(walletModel);
-    zXxxControl->exec();
+    ZXavanderControlDialog* zXavanderControl = new ZXavanderControlDialog(this);
+    zXavanderControl->setModel(walletModel);
+    zXavanderControl->exec();
 }
 
 void PrivacyDialog::setZXavanderControlLabels(int64_t nAmount, int nQuantity)
 {
-    ui->labelzXxxSelected_int->setText(QString::number(nAmount));
+    ui->labelzXavanderSelected_int->setText(QString::number(nAmount));
     ui->labelQuantitySelected_int->setText(QString::number(nQuantity));
 }
 
