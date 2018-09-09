@@ -2135,12 +2135,12 @@ int64_t GetBlockValue(int nHeight)
 
 	}else {
 		if (nHeight == 0) {
+			nSubsidy = 0 * COIN;
+		}
+		else if (nHeight < 3 && nHeight > 1) {
 			nSubsidy = 2500000 * COIN;
 		}
-		else if (nHeight < 2 && nHeight > 1) {
-			nSubsidy = 2500000 * COIN;
-		}
-		else if (nHeight <= 200 && nHeight > 2) {
+		else if (nHeight <= 200 && nHeight > 3) {
 			nSubsidy = 0 * COIN;
 		}
 		else if (nHeight <= 18280 && nHeight > 200) {
