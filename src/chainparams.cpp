@@ -56,7 +56,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000710576fc65101fae9e2ea6a8fb318a4efdc091bde1597157f28fe6a2785"));
+    (0, uint256("0x1ba6f70f51ac3d02ff2c2ee0e0db54e0ae15944629fde4e6825aa3c63eb3dc18"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
 	1536464445, // * UNIX timestamp of last checkpoint block
@@ -99,7 +99,7 @@ public:
     CMainParams()
     {
         networkID = CBaseChainParams::MAIN;
-        vTreasuryRewardAddress = ""; //Fill in address once wallet generated or when dev fee is activated
+        vTreasuryRewardAddress = ""; //Fill in address once wallet generated or when dev fee is activated (TFinch)
         strNetworkID = "main";
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -164,10 +164,10 @@ public:
 				
         hashGenesisBlock = genesis.GetHash();
 		
-		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x00000710576fc65101fae9e2ea6a8fb318a4efdc091bde1597157f28fe6a2785"));
-        assert(genesis.hashMerkleRoot == uint256("0x7437c11e4e92955f83b376ff859274279e12cf1f3ef9dccf1709396629e54753"));
+		//printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        assert(hashGenesisBlock == uint256("0x1ba6f70f51ac3d02ff2c2ee0e0db54e0ae15944629fde4e6825aa3c63eb3dc18"));
+        assert(genesis.hashMerkleRoot == uint256("0xa5c288205f9c0004f19a3d7fd717a9efe91e8b5966c1d0c93c9554d4e96dd697"));
 				
         vSeeds.clear();
 		
