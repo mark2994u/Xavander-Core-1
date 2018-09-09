@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Smrtc developers
+// Copyright (c) 2017-2018 The Xavander developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZSMRTCCONTROLDIALOG_H
-#define ZSMRTCCONTROLDIALOG_H
+#ifndef ZXAVANDERCONTROLDIALOG_H
+#define ZXAVANDERCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -15,16 +15,16 @@ class CZerocoinMint;
 class WalletModel;
 
 namespace Ui {
-class ZSmrtcControlDialog;
+class ZXavanderControlDialog;
 }
 
-class ZSmrtcControlDialog : public QDialog
+class ZXavanderControlDialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit ZSmrtcControlDialog(QWidget *parent);
-    ~ZSmrtcControlDialog();
+    explicit ZXavanderControlDialog(QWidget *parent);
+    ~ZXavanderControlDialog();
 
     void setModel(WalletModel* model);
 
@@ -33,7 +33,7 @@ public:
     static std::vector<CZerocoinMint> GetSelectedMints();
 
 private:
-    Ui::ZSmrtcControlDialog *ui;
+    Ui::ZXavanderControlDialog *ui;
     WalletModel* model;
     PrivacyDialog* privacyDialog;
 
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZSMRTCCONTROLDIALOG_H
+#endif // ZXAVANDERCONTROLDIALOG_H

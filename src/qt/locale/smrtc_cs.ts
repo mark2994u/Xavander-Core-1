@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Smrtc addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Smrtc adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your Xavander addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše Xavander adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Smrtc addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Smrtc adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your Xavander addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše Xavander adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Smrtc will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
-        <translation>Smrtc se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše SMRTCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Xavander will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XAVANDERs from being stolen by malware infecting your computer.</source>
+        <translation>Xavander se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše XAVANDERy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE SMRTCy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XAVANDER&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE XAVANDERy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Smrtc Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Smrtc adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Xavander Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte Xavander adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Smrtc address to sign the message with</source>
-        <translation>Smrtc adresa pro podepsání zprávy</translation>
+        <source>The Xavander address to sign the message with</source>
+        <translation>Xavander adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Smrtc address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Smrtc adresu</translation>
+        <source>Sign the message to prove you own this Xavander address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Xavander adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Smrtc address the message was signed with</source>
-        <translation>Smrtc adresa zprávy byla podpsána</translation>
+        <source>The Xavander address the message was signed with</source>
+        <translation>Xavander adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Smrtc address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Smrtc adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Xavander address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Xavander adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
-        <source>Send coins to a Smrtc address</source>
-        <translation>Odeslat platbuna Smrtc adresu</translation>
+        <source>Send coins to a Xavander address</source>
+        <translation>Odeslat platbuna Xavander adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and smrtc: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a smrtc: URIs)</translation>
+        <source>Request payments (generates QR codes and xavander: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a xavander: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Smrtc Core</source>
-        <translation>&amp;O Smrtc Core</translation>
+        <source>&amp;About Xavander Core</source>
+        <translation>&amp;O Xavander Core</translation>
     </message>
     <message>
-        <source>Show information about Smrtc Core</source>
-        <translation>Zobraz informace o Smrtc Core</translation>
+        <source>Show information about Xavander Core</source>
+        <translation>Zobraz informace o Xavander Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Smrtc</source>
-        <translation>Upravit možnosti konfigurace pro Smrtc</translation>
+        <source>Modify configuration options for Xavander</source>
+        <translation>Upravit možnosti konfigurace pro Xavander</translation>
     </message>
     <message>
-        <source>Sign messages with your Smrtc addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Smrtc adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your Xavander addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší Xavander adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Smrtc addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Smrtc adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Xavander addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Xavander adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Smrtc: URI or payment request</source>
-        <translation>Otevřít Smrtc: URI nebo platební žádost</translation>
+        <source>Open a Xavander: URI or payment request</source>
+        <translation>Otevřít Xavander: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Smrtc Core help message to get a list with possible Smrtc command-line options</source>
-        <translation>Zobrazit Smrtc Core pomocnou zpráv pro získání seznamu možných parametrů Smrtc pro příkazy do příkazové řádky</translation>
+        <source>Show the Xavander Core help message to get a list with possible Xavander command-line options</source>
+        <translation>Zobrazit Xavander Core pomocnou zpráv pro získání seznamu možných parametrů Xavander pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Smrtc Core client</source>
-        <translation>Smrtc Core klient</translation>
+        <source>Xavander Core client</source>
+        <translation>Xavander Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (smrtc.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (smrtc.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xavander.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (xavander.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Smrtc address.</source>
-        <translation>Zadaná adresa "%1" není validní Smrtc adresa.</translation>
+        <source>The entered address "%1" is not a valid Xavander address.</source>
+        <translation>Zadaná adresa "%1" není validní Xavander adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,12 +1112,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
-        <source>About Smrtc Core</source>
-        <translation>O Smrtc Core</translation>
+        <source>About Xavander Core</source>
+        <translation>O Xavander Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1151,16 +1151,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Smrtc Core.</source>
-        <translation>Vítejte v Smrtc Core.</translation>
+        <source>Welcome to Xavander Core.</source>
+        <translation>Vítejte v Xavander Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Smrtc Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Smrtc Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Xavander Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Xavander Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Smrtc Core will download and store a copy of the Smrtc block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Smrtc Core stáhne a uloží kopii Smrtc blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Xavander Core will download and store a copy of the Xavander block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Xavander Core stáhne a uloží kopii Xavander blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1171,8 +1171,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1438,24 +1438,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SMRTC</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 SMRTC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XAVANDER</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 XAVANDER</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SMRTC to anonymize 10000 SMRTC</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 SMRTC pro anonymizaci 10000 SMRTC</translation>
+        <source>This option is the quickest and will cost about ~0.025 XAVANDER to anonymize 10000 XAVANDER</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 XAVANDER pro anonymizaci 10000 XAVANDER</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 SMRTC per 10000 SMRTC you anonymize.</source>
-        <translation>0.1 SMRTC za 10000 SMRTC anonymizujete.</translation>
+        <source>0.1 XAVANDER per 10000 XAVANDER you anonymize.</source>
+        <translation>0.1 XAVANDER za 10000 XAVANDER anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1520,12 +1520,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Smrtc after logging in to the system.</source>
-        <translation>Automaticky spustit Smrtc po přihlášení do systému</translation>
+        <source>Automatically start Xavander after logging in to the system.</source>
+        <translation>Automaticky spustit Xavander po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Smrtc on system login</source>
-        <translation>&amp;Spusti Smrtc při přihlášení do systému</translation>
+        <source>&amp;Start Xavander on system login</source>
+        <translation>&amp;Spusti Xavander při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2057,8 +2057,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 SMRTC</source>
-        <translation>0 SMRTC</translation>
+        <source>0 XAVANDER</source>
+        <translation>0 XAVANDER</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2186,8 +2186,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Smrtc address to sign the message with</source>
-        <translation>Smrtc adresa pro podepsání zprávy</translation>
+        <source>The Xavander address to sign the message with</source>
+        <translation>Xavander adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2214,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Smrtc address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Smrtc adresu</translation>
+        <source>Sign the message to prove you own this Xavander address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Xavander adresu</translation>
     </message>
     <message>
-        <source>The Smrtc address the message was signed with</source>
-        <translation>Smrtc adresa zprávy byla podpsána</translation>
+        <source>The Xavander address the message was signed with</source>
+        <translation>Xavander adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Smrtc address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Smrtc adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Xavander address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Xavander adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2265,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     </context>
 <context>
@@ -2376,7 +2376,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>smrtc-core</name>
+    <name>xavander-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

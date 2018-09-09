@@ -186,6 +186,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>smrtc-core</name>
+    <name>xavander-core</name>
     </context>
 </TS>

@@ -1,22 +1,22 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Smrtc developers
+// Copyright (c) 2017-2018 The Xavander developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zsmrtccontroldialog.h"
-#include "ui_zsmrtccontroldialog.h"
+#include "zxavandercontroldialog.h"
+#include "ui_zxavandercontroldialog.h"
 
 #include "main.h"
 #include "walletmodel.h"
 
 using namespace std;
 
-std::list<std::string> ZSmrtcControlDialog::listSelectedMints;
-std::list<CZerocoinMint> ZSmrtcControlDialog::listMints;
+std::list<std::string> ZXavanderControlDialog::listSelectedMints;
+std::list<CZerocoinMint> ZXavanderControlDialog::listMints;
 
-ZSmrtcControlDialog::ZSmrtcControlDialog(QWidget *parent) :
+ZXavanderControlDialog::ZXavanderControlDialog(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::ZSmrtcControlDialog),
+    ui(new Ui::ZXavanderControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -30,19 +30,19 @@ ZSmrtcControlDialog::ZSmrtcControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZSmrtcControlDialog::~ZSmrtcControlDialog()
+ZXavanderControlDialog::~ZXavanderControlDialog()
 {
     delete ui;
 }
 
-void ZSmrtcControlDialog::setModel(WalletModel *model)
+void ZXavanderControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
 }
 
 //Update the tree widget
-void ZSmrtcControlDialog::updateList()
+void ZXavanderControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -134,7 +134,7 @@ void ZSmrtcControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZSmrtcControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZXavanderControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -157,7 +157,7 @@ void ZSmrtcControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZSmrtcControlDialog::updateLabels()
+void ZXavanderControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CZerocoinMint mint : listMints) {
@@ -167,14 +167,14 @@ void ZSmrtcControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZSmrtc_int->setText(QString::number(nAmount));
+    ui->labelZXavander_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(listSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZSmrtcControlLabels(nAmount, listSelectedMints.size());
+    privacyDialog->setZXavanderControlLabels(nAmount, listSelectedMints.size());
 }
 
-std::vector<CZerocoinMint> ZSmrtcControlDialog::GetSelectedMints()
+std::vector<CZerocoinMint> ZXavanderControlDialog::GetSelectedMints()
 {
     std::vector<CZerocoinMint> listReturn;
     for (const CZerocoinMint mint : listMints) {
@@ -187,7 +187,7 @@ std::vector<CZerocoinMint> ZSmrtcControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZSmrtcControlDialog::ButtonAllClicked()
+void ZXavanderControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

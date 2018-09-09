@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Smrtc"
-            VALUE "FileDescription",    "Smrtc-cli (OSS RPC client for Smrtc)"
+            VALUE "CompanyName",        "Xavander"
+            VALUE "FileDescription",    "Xavander-cli (OSS RPC client for Xavander)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "smrtc-cli"
+            VALUE "InternalName",       "xavander-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "smrtc-cli.exe"
-            VALUE "ProductName",        "Smrtc-cli"
+            VALUE "OriginalFilename",   "xavander-cli.exe"
+            VALUE "ProductName",        "Xavander-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

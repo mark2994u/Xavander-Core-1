@@ -1,2 +1,2 @@
-usr/local/bin/smrtcd usr/bin
-usr/local/bin/smrtc-cli usr/bin
+usr/local/bin/xavanderd usr/bin
+usr/local/bin/xavander-cli usr/bin

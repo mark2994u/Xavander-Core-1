@@ -1,25 +1,25 @@
-# /etc/conf.d/smrtcd: config file for /etc/init.d/smrtcd
+# /etc/conf.d/xavanderd: config file for /etc/init.d/xavanderd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/smrtc/smrtc.conf"
+#BITCOIND_CONFIGFILE="/etc/xavander/xavander.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/smrtcd"
+#BITCOIND_PIDDIR="/var/run/xavanderd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/smrtcd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xavanderd.pid"
 
-# Where to write smrtcd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/smrtcd"
+# Where to write xavanderd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xavanderd"
 
-# User and group to own smrtcd process
-#BITCOIND_USER="smrtc"
-#BITCOIND_GROUP="smrtc"
+# User and group to own xavanderd process
+#BITCOIND_USER="xavander"
+#BITCOIND_GROUP="xavander"
 
-# Path to smrtcd executable
-#BITCOIND_BIN="/usr/bin/smrtcd"
+# Path to xavanderd executable
+#BITCOIND_BIN="/usr/bin/xavanderd"
 
-# Nice value to run smrtcd under
+# Nice value to run xavanderd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

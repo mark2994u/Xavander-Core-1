@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Smrtc addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Smrtc-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your Xavander addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши Xavander-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your Smrtc addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Smrtc-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your Xavander addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши Xavander-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Smrtc will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
-        <translation>Smrtc сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Smrtc от кражи с использованием вредоносного ПО.</translation>
+        <source>Xavander will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XAVANDERs from being stolen by malware infecting your computer.</source>
+        <translation>Xavander сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Xavander от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ SMRTC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XAVANDER&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ XAVANDER&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a Smrtc Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите Smrtc адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a Xavander Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите Xavander адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Smrtc address to sign the message with</source>
-        <translation>Адрес Smrtc для подписи сообщения с помощью</translation>
+        <source>The Xavander address to sign the message with</source>
+        <translation>Адрес Xavander для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Smrtc address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Smrtc</translation>
+        <source>Sign the message to prove you own this Xavander address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Xavander</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The Smrtc address the message was signed with</source>
-        <translation>Адрес Smrtc, которым подписано сообщение</translation>
+        <source>The Xavander address the message was signed with</source>
+        <translation>Адрес Xavander, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Smrtc address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Smrtc адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified Xavander address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Xavander адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,23 +594,23 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
-        <source>Send coins to a Smrtc address</source>
-        <translation>Отправить монеты на Smrtc адрес</translation>
+        <source>Send coins to a Xavander address</source>
+        <translation>Отправить монеты на Xavander адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and smrtc: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и Smrtc: URI)</translation>
+        <source>Request payments (generates QR codes and xavander: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и Xavander: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Конфиденциальность</translation>
     </message>
     <message>
-        <source>Privacy Action for zSMRTC and Obfuscation</source>
+        <source>Privacy Action for zXAVANDER and Obfuscation</source>
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
@@ -622,24 +622,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Smrtc Core</source>
-        <translation>&amp;О Smrtc Core</translation>
+        <source>&amp;About Xavander Core</source>
+        <translation>&amp;О Xavander Core</translation>
     </message>
     <message>
-        <source>Show information about Smrtc Core</source>
-        <translation>Показать информацию о Smrtc Core</translation>
+        <source>Show information about Xavander Core</source>
+        <translation>Показать информацию о Xavander Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Smrtc</source>
-        <translation>Изменение параметров конфигурации Smrtc</translation>
+        <source>Modify configuration options for Xavander</source>
+        <translation>Изменение параметров конфигурации Xavander</translation>
     </message>
     <message>
-        <source>Sign messages with your Smrtc addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими Smrtc адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your Xavander addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими Xavander адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Smrtc addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным Smrtc адресом </translation>
+        <source>Verify messages to ensure they were signed with specified Xavander addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным Xavander адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a Smrtc: URI or payment request</source>
-        <translation>Открыть Smrtc: URI или запрос платежа</translation>
+        <source>Open a Xavander: URI or payment request</source>
+        <translation>Открыть Xavander: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +682,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Smrtc Core help message to get a list with possible Smrtc command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Smrtc</translation>
+        <source>Show the Xavander Core help message to get a list with possible Xavander command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Xavander</translation>
     </message>
     <message>
-        <source>Smrtc Core client</source>
-        <translation>Клиент Smrtc Core</translation>
+        <source>Xavander Core client</source>
+        <translation>Клиент Xavander Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -825,8 +825,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (smrtc.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (smrtc.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xavander.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (xavander.conf).</translation>
     </message>
 </context>
 <context>
@@ -1110,8 +1110,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Smrtc address.</source>
-        <translation>Введенный адрес "%1" не является Smrtc адресом.</translation>
+        <source>The entered address "%1" is not a valid Xavander address.</source>
+        <translation>Введенный адрес "%1" не является Xavander адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1156,16 +1156,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Smrtc Core</source>
-        <translation>О Smrtc Core</translation>
+        <source>About Xavander Core</source>
+        <translation>О Xavander Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1211,16 +1211,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Smrtc Core.</source>
-        <translation>Добро пожаловать в Smrtc Core.</translation>
+        <source>Welcome to Xavander Core.</source>
+        <translation>Добро пожаловать в Xavander Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Smrtc Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Smrtc Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Xavander Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Xavander Core.</translation>
     </message>
     <message>
-        <source>Smrtc Core will download and store a copy of the Smrtc block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Smrtc Core загрузит и сохранит копию цепочки блоков Smrtc. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Xavander Core will download and store a copy of the Xavander block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Xavander Core загрузит и сохранит копию цепочки блоков Xavander. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1231,8 +1231,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1373,12 +1373,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Smrtc addresses after it matures.
-To Add: enter percentage to give and Smrtc address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Xavander addresses after it matures.
+To Add: enter percentage to give and Xavander address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие Smrtc адреса.
-Для добавления: введите передаваемый процент и Smrtc адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие Xavander адреса.
+Для добавления: введите передаваемый процент и Xavander адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1516,48 +1516,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SMRTC</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 SMRTC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XAVANDER</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 XAVANDER</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SMRTC</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 SMRTC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XAVANDER</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 XAVANDER</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SMRTC to anonymize 10000 SMRTC</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 SMRTC для анонимизации 10000 SMRTC</translation>
+        <source>This option is the quickest and will cost about ~0.025 XAVANDER to anonymize 10000 XAVANDER</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 XAVANDER для анонимизации 10000 XAVANDER</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SMRTC to anonymize 10000 SMRTC</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 SMRTC для анонимизации 10000 SMRTC</translation>
+        <source>This option is moderately fast and will cost about 0.05 XAVANDER to anonymize 10000 XAVANDER</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 XAVANDER для анонимизации 10000 XAVANDER</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 SMRTC per 10000 SMRTC you anonymize.</source>
-        <translation>0.1 SMRTC за 10000 SMRTC которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 XAVANDER per 10000 XAVANDER you anonymize.</source>
+        <translation>0.1 XAVANDER за 10000 XAVANDER которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Smrtc's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Smrtc.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Xavander's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Xavander.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Smrtc's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Smrtc.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Xavander's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Xavander.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Smrtc's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Smrtc.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Xavander's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Xavander.</translation>
     </message>
 </context>
 <context>
@@ -1618,8 +1618,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Smrtc client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Smrtc через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Xavander client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Xavander через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1638,12 +1638,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Smrtc after logging in to the system.</source>
-        <translation>Автоматически запускать Smrtc после входа в систему.</translation>
+        <source>Automatically start Xavander after logging in to the system.</source>
+        <translation>Автоматически запускать Xavander после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Smrtc on system login</source>
-        <translation>&amp;Запускать Smrtc при входе в систему</translation>
+        <source>&amp;Start Xavander on system login</source>
+        <translation>&amp;Запускать Xavander при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1670,34 +1670,34 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Smrtc.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Smrtc.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Xavander.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Xavander.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/smrtc-project/smrtc-project-translations</source>
+https://www.transifex.com/xavander-project/xavander-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
+https://www.transifex.com/xavander-project/xavander-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming SMRTC which get automatically converted to zSMRTC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих SMRTC, которые автоматически конвертируются в zSMRTC благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming XAVANDER which get automatically converted to zXAVANDER via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих XAVANDER, которые автоматически конвертируются в zXAVANDER благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSMRTC</source>
-        <translation>Процент  авточеканненых zSMRTC</translation>
+        <source>Percentage of autominted zXAVANDER</source>
+        <translation>Процент  авточеканненых zXAVANDER</translation>
     </message>
     <message>
-        <source>Preferred Automint zSMRTC Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zSMRTC</translation>
+        <source>Preferred Automint zXAVANDER Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zXAVANDER</translation>
     </message>
     <message>
-        <source>Connect to the Smrtc network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Smrtc через SOCKS5 прокси.</translation>
+        <source>Connect to the Xavander network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Xavander через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Вид</translation>
     </message>
     <message>
-        <source>SMRTC Balances</source>
-        <translation>Баланс SMRTC</translation>
+        <source>XAVANDER Balances</source>
+        <translation>Баланс XAVANDER</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1855,8 +1855,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smrtc network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Smrtc после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Xavander network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Xavander после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1891,12 +1891,12 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>SMRTC:</source>
-        <translation>SMRTC:</translation>
+        <source>XAVANDER:</source>
+        <translation>XAVANDER:</translation>
     </message>
     <message>
-        <source>zSMRTC:</source>
-        <translation>zSMRTC:</translation>
+        <source>zXAVANDER:</source>
+        <translation>zXAVANDER:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1934,12 +1934,12 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start smrtc: click-to-pay handler</source>
-        <translation>Не удалось запустить smrtc: обработчик click-to-pay </translation>
+        <source>Cannot start xavander: click-to-pay handler</source>
+        <translation>Не удалось запустить xavander: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Smrtc address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный Smrtc адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Xavander address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный Xavander адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2020,16 +2020,16 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SMRTC which were anonymized via Zerocin Protocol</source>
-        <translation>SMRTC, который был анонимно использован через Zerocoin протокол</translation>
+        <source>XAVANDER which were anonymized via Zerocin Protocol</source>
+        <translation>XAVANDER, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Действия Zerocoin </translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smrtc network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Smrtc после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Xavander network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Xavander после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
@@ -2191,8 +2191,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Smrtc address (e.g. %1)</source>
-        <translation>Введите адрес Smrtc (например %1)</translation>
+        <source>Enter a Xavander address (e.g. %1)</source>
+        <translation>Введите адрес Xavander (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2325,8 +2325,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Smrtc debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Smrtc. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Xavander debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Xavander. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2486,8 +2486,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Smrtc RPC console.</source>
-        <translation>Добро пожаловать в окружение Smrtc RPC.</translation>
+        <source>Welcome to the Xavander RPC console.</source>
+        <translation>Добро пожаловать в окружение Xavander RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 SMRTC</source>
-        <translation>0 SMRTC</translation>
+        <source>0 XAVANDER</source>
+        <translation>0 XAVANDER</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2786,8 +2786,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid Smrtc address</source>
-        <translation>Предупреждение: неправильный Smrtc адрес</translation>
+        <source>Warning: Invalid Xavander address</source>
+        <translation>Предупреждение: неправильный Xavander адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2840,8 +2840,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Smrtc Core is shutting down...</source>
-        <translation>Smrtc Core выключается...</translation>
+        <source>Xavander Core is shutting down...</source>
+        <translation>Xavander Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2851,8 +2851,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Smrtc address to sign the message with</source>
-        <translation>Адрес Smrtc для подписи сообщения с помощью</translation>
+        <source>The Xavander address to sign the message with</source>
+        <translation>Адрес Xavander для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2875,16 +2875,16 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Smrtc address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Smrtc</translation>
+        <source>Sign the message to prove you own this Xavander address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Xavander</translation>
     </message>
     <message>
-        <source>The Smrtc address the message was signed with</source>
-        <translation>Адрес Smrtc, которым подписано сообщение</translation>
+        <source>The Xavander address the message was signed with</source>
+        <translation>Адрес Xavander, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Smrtc address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Smrtc адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified Xavander address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Xavander адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2930,8 +2930,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Smrtc Core</source>
-        <translation>Smrtc Core</translation>
+        <source>Xavander Core</source>
+        <translation>Xavander Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2946,8 +2946,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The Smrtc Core developers</source>
-        <translation>Разработчики Smrtc Core</translation>
+        <source>The Xavander Core developers</source>
+        <translation>Разработчики Xavander Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3205,7 +3205,7 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>smrtc-core</name>
+    <name>xavander-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -3239,8 +3239,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Smrtc Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Smrtc Core</translation>
+        <source>Copyright (C) 2015-%i The Xavander Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики Xavander Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

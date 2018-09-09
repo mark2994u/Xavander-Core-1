@@ -1,19 +1,19 @@
 [Unit]
-Description=Smrtc's distributed currency daemon
+Description=Xavander's distributed currency daemon
 After=network.target
 
 [Service]
-User=smrtc
-Group=smrtc
+User=xavander
+Group=xavander
 
 Type=forking
-PIDFile=/var/lib/smrtcd/smrtcd.pid
+PIDFile=/var/lib/xavanderd/xavanderd.pid
 
-ExecStart=/usr/bin/smrtcd -daemon -pid=/var/lib/smrtcd/smrtcd.pid \
-          -conf=/etc/smrtc/smrtc.conf -datadir=/var/lib/smrtcd
+ExecStart=/usr/bin/xavanderd -daemon -pid=/var/lib/xavanderd/xavanderd.pid \
+          -conf=/etc/xavander/xavander.conf -datadir=/var/lib/xavanderd
 
-ExecStop=-/usr/bin/smrtc-cli -conf=/etc/smrtc/smrtc.conf \
-         -datadir=/var/lib/smrtcd stop
+ExecStop=-/usr/bin/xavander-cli -conf=/etc/xavander/xavander.conf \
+         -datadir=/var/lib/xavanderd stop
 
 Restart=always
 PrivateTmp=true
