@@ -31,7 +31,7 @@
 </table>
 
 
-### Masternode/PoS/Dev fees Rewards Per Block, 5000 Xavander Collateral
+### Masternode/PoS/Dev fees Rewards Per Block, 10000 Xavander Collateral
 
 <table>
 <tr><th>Block Height</th><th>MN Reward Amount</th><th>PoS Reward Amount</th><th>Development Fee</th><th>Duration (Days)</th></tr>
